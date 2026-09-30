@@ -34,8 +34,7 @@ def read_matrix():
         except ValueError:
             print("Error: n must be a positive integer.")
 
-    print(f"Enter {n} rows with {n} numbers each, separated by spaces.")
-    print("You can use integers, decimals (0.5), or fractions (1/2).")
+    print("Enter matrix:")
     matrix = []
     for i in range(n):
         while True:
